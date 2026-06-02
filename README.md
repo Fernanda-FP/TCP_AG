@@ -4,7 +4,7 @@ Este repositório contém a solução da equipe para o Trabalho Prático da disc
 
 ## Tecnologias Utilizadas
 - **Linguagem:** Python 3
-- **Bibliotecas:** `sys`, `math`, `random`, `time`, `signal` (apenas bibliotecas nativas, conforme especificação).
+- **Bibliotecas:** `sys`, `math`, `random`, `time`, `signal`.
 
 ## Como Executar
 
@@ -17,7 +17,7 @@ Para rodar um arquivo de teste específico (ex: `tsp51.tsp`) e gerar a resposta:
 python3 tsp_solver.py < tsp51.tsp > solucao_tsp51.tour
 ```
 ### Testando de uma vez
-
+Caso faça uso de uma distribuição linux:
 ```bash
 
 for arquivo in *.tsp; do
